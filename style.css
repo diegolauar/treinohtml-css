@@ -1,0 +1,83 @@
+*{
+    font-family: Arial;
+}
+
+body{
+    margin: 0;
+    padding: 50px;
+    padding-bottom: 300px;
+    background-color: grey;
+}
+header{
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+    background-color: rgb(59, 58, 58); 
+  
+
+}
+h1{
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 20px;
+    color: blanchedalmond;
+}
+.logo{
+    display: flex;
+    align-items: center;    
+    padding-top: 10px;
+  
+
+}
+.menu{
+    display: flex;
+    align-items: center;
+    
+
+}
+nav ul,
+nav li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul{
+    display: flex;
+}
+nav a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+
+}
+
+nav .active a,
+nav a:hover{
+    background-color:  #727272;
+    color: #FFFFFF;
+    
+}
+.noticia{
+   display: flex;
+    justify-content:center;  
+    width: auto;
+    height: 500px;
+    background-color: yellow;
+}
+.madara{
+    padding-top: 10px;
+  padding-right: 10px;
+  
+  
+}
+a{
+    margin-left: 20px;
+    padding-top: 20px;
+    font-size: 15px;
+}
